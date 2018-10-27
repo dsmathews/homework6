@@ -126,7 +126,7 @@
 }
 
 #portfolio {
-    max-width: calc(900px - 1rem);
+    max-width: calc(900px - 1rem) !important;
 }
 
 .slideControl{
@@ -139,4 +139,9 @@
 
 .contact-list {
     flex-direction: row;
+}
+
+#projectlinks{
+    color: #B3A369;
+    text-decoration: wavy;
 }
