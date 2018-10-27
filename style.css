@@ -125,6 +125,10 @@
     
 }
 
+#portfolio {
+    max-width: calc(900px - 1rem);
+}
+
 .slideControl{
     color: #B3A369
 }
