@@ -1,0 +1,138 @@
+/* Page Background */
+#brain {
+    background-image: url('images/vector-circuit-board.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Header */
+
+.navbar {
+    display: flex;
+}
+
+.navbar, footer {
+    background-color: #B3A369 !important;
+}
+
+.nav-link, .navbar-brand, #hamburger, #navbarNav, footer, .footer1, #businessText {
+    color: white !important;
+}
+
+.nav-link, .navbar-brand, .card-body, .card-header, footer, * {
+    font-family: 'Contrail One';
+}
+
+#navbarNav {
+    justify-content: flex-end
+}
+
+
+/* Sticky Footer  */
+.footer1 {
+    width: auto;
+    /* max-width: 680px; */
+    /* padding: 0 15px; */
+
+}
+.footer {
+    /* position: fixed; */
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+    background-color: #B3A369;
+    /* border-top: 10px solid #b3a369; */
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Page Content */
+#oneBigRow{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center
+}
+
+
+#headshot{
+    align-self: center;
+    align-content: center;
+    border-radius: 35px;
+    margin-bottom: 5px;
+}
+
+.entryPage{
+    color: #B3A369;
+    justify-content: right;
+    align-self: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#indexCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab, .fas {
+    color: #B3A369;
+    margin-right: 10px
+}
+
+#pictureBox{
+    justify-self: center
+}
+
+.card-header, .cardDirections {
+    color: #B3A369;
+}
+
+#brains{
+    max-width: calc(300px - 1rem);
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bigCard, #portfolio, .businessCard{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.businessCard {
+    background-color: #B3A369;
+    color: white;
+}
+
+.social-list, .language-list{
+    flex-direction: row;
+    align-content: space-around;
+}
+
+#portfolio,.carousel {
+    justify-content: center
+}
+
+.btnGT{
+    background-color: #B3A369;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+.slideControl{
+    color: #B3A369
+}
+
+.fac {
+    color: white !important;
+}
+
+.contact-list {
+    flex-direction: row;
+}
